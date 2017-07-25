@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background: url(../img/index/body_bg.jpg) #f0eef7;
+  font-size: 14px;
+  color: #1f1f1f;
+}
+h1{
+  color: #010101;
+  font-size: 29px;
+  text-transform: uppercase;
+  padding: 53px 0 24px 0;
+}
+h2{
+  font-family: "MyriadProBold";
+  font-size: 18px;
+  padding: 10px 0;
+}
+p{
+  padding: 10px 0;
+}
+ul{
+  margin-left: 40px;
+  font-family: "MyriadProRegular";
+  padding: 10px 0;
+}
+a{
+  color: #0056d3;
+  display: block;
+  padding: 0 10px 10px 35px;
+  font-family: "MyriadProRegular";
+  font-style: italic;
+}
+a:hover{
+  color: #4881d2;
+}
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+.block{
+  border-bottom: 1px solid #c7c9c7;
+  padding: 10px 0;
+}
+.block:last-of-type{
+  border-bottom: none;
+}
+.photo{
+  border: 1px solid #8f8f8f;
+  display: block;
+  margin: 0 auto 19px auto;
+}
+.phone, .review{
+  color: #3a3a3a;
+  padding-left: 35px;
+  font-family: "MyriadProRegular";
+}
+
+@media screen and (max-width: 500px){
+  .container{
+    width: 100%;
+  }
+
+}
