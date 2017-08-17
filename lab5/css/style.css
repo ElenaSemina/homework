@@ -81,12 +81,9 @@ table {
 								 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
 								 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
 }
-html,
-body {
-  height: 100%;
-}
+
 body{
-	background: url("../img/index/background.jpg") repeat-x top #aeccd7;
+	background: url("../img/index/background.jpg") no-repeat center #aeccd7;
 	background-size: cover;
 	position: relative;
 	font-family: 'Tahoma', sans-serif;
@@ -194,12 +191,7 @@ header .flag::after{
 	background: #56a2dc;
 }
 .form_content{
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	margin: auto;
+	margin: 150px auto;
 	width: 560px;
 	height: 614px;
 	background: rgba(0, 0, 0, 0.63);
