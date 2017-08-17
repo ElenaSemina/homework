@@ -305,7 +305,7 @@ header .flag::after{
 	color: #fffbfb;
 	transition: 0.5s ease;
 }
-.form_content input:not([type="checkbox"]):hover{
+.form_content input:not([type="checkbox"]):hover, .form_content input:not([type="checkbox"]):focus{
 	background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
 	box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
 	transition: 0.5s ease;
